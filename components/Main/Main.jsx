@@ -1,8 +1,8 @@
 import CardsWrapper from "../CardsWrapper/CardsWrapper";
-const Main = ({ products }) => {
+const Main = ({ products, setProducts }) => {
   return (
     <main>
-      <CardsWrapper products={products} />
+      <CardsWrapper products={products} setProducts={setProducts} />
     </main>
   );
 };

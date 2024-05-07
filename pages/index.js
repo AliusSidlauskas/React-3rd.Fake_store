@@ -26,7 +26,7 @@ const MainPage = () => {
   return (
     <div className={styles.container}>
       <Header links={links} />
-      <Main products={products} />
+      <Main products={products} setProducts={setProducts}/>
     </div>
   );
 };
