@@ -13,6 +13,7 @@ const CardsWrapper = ({ products, setProducts }) => {
               <ProductCard
                 id={product.id}
                 key={product.id}
+                price={product.price}
                 title={product.title}
                 description={product.description}
                 category={product.category}

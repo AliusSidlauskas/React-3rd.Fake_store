@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header/Header";
 import Main from "../components/Main/Main";
+import Footer from "../components/Footer/Footer"
 import axios from "axios";
 
 const MainPage = () => {
@@ -27,6 +28,7 @@ const MainPage = () => {
     <div className={styles.container}>
       <Header links={links} />
       <Main products={products} setProducts={setProducts}/>
+      <Footer/>
     </div>
   );
 };

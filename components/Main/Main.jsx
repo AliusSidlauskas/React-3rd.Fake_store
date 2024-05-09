@@ -1,4 +1,5 @@
 import CardsWrapper from "../CardsWrapper/CardsWrapper";
+
 const Main = ({ products, setProducts }) => {
   return (
     <main>

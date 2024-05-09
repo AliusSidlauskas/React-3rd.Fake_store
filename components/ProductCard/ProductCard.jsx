@@ -29,9 +29,9 @@ const ProductCard = ({
       onClick={removeProduct}
     >
       <h3>{title}</h3>
-      <h4>{price ? <>{price}</> : <>No price available</>}</h4>
-      <p>{description}</p>
-      <h4>{category}</h4>
+      <h4>{`Price: ${price ? price : "No price available"}`}</h4>
+      <p>{`Description: ${description}`}</p>
+      <h4>{`Category: ${category}`}</h4>
 
       {image ? (
         <img src={image} alt="" />
@@ -40,8 +40,8 @@ const ProductCard = ({
         // <div className={styles.noImage}>No Image</div>
       )}
 
-      <h5>{rating.rate}</h5>
-      <h5>{rating.count}</h5>
+      <h5>{`Rate ${rating.rate}`}</h5>
+      <h5>{`count: ${rating.count}`}</h5>
     </div>
   );
 };

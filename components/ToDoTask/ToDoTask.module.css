@@ -1,0 +1,19 @@
+.completed {
+  width: 150px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid;
+  background-color: rgb(2, 187, 2);
+}
+
+.notCompleted {
+  width: 150px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid;
+  background-color: rgb(218, 1, 1);
+}
